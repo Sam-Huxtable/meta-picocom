@@ -9,7 +9,7 @@ DEPENDS:append = " bc-native u-boot-tools-native python3-setuptools-native"
 BRANCH = "picocom/master"
 SRCREV = "${AUTOREV}"
 SRC_URI = " \
-    git://git@github.com/picocom-chips/u-boot.git;protocol=ssh;branch=${BRANCH} \
+    git://git@github.com/sam-huxtable/u-boot.git;protocol=ssh;branch=${BRANCH} \
     file://mmc-support.cfg \
     file://opensbi-options.cfg \
     file://tftp-mmc-boot.txt \
