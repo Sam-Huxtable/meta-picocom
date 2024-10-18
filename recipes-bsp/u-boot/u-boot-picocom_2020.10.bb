@@ -6,7 +6,7 @@ FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 FILESEXTRAPATHS:prepend := "${THISDIR}/vfw4spl:"
 DEPENDS:append = " bc-native u-boot-tools-native python3-setuptools-native"
 
-BRANCH = "dev_v2020.10"
+BRANCH = "picocom/master"
 SRCREV = "${AUTOREV}"
 SRC_URI = " \
     git://github.com/sam-huxtable/u-boot.git;protocol=https;branch=${BRANCH} \
